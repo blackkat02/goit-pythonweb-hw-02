@@ -20,8 +20,4 @@ EXPOSE 8000
 
 # Задаємо команду, яка буде виконуватися при старті контейнера.
 # Використовуємо uvicorn для запуску FastAPI застосунку.
-# CMD ["pip", "install", "-r", "requirements.txt, "python", "main.py]
-
-# CMD ["pip", "install", "-r", "requirements.txt", "python", "main.py"]
-
 CMD ["python", "main.py"]
